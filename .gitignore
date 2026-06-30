@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local workspace files
+.codex-backups/
+**/.idea/
+output.pdf
+machine_learn/*_files/
