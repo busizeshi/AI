@@ -9,11 +9,19 @@ Required environment:
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
 from langchain.messages import HumanMessage, SystemMessage, ToolCall
 from langchain.tools import tool
 from langchain_core.messages import BaseMessage
 from langgraph.func import entrypoint, task
 from langgraph.graph import add_messages
+
+# 直接运行当前脚本时，把上一级 GetStart 目录加入导入路径，方便复用共享 llm_client。
+GETSTART_DIR = Path(__file__).resolve().parent.parent
+if str(GETSTART_DIR) not in sys.path:
+    sys.path.insert(0, str(GETSTART_DIR))
 
 from llm_client import get_chat_model
 

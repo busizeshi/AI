@@ -13,12 +13,19 @@ Optional environment:
 from __future__ import annotations
 
 import operator
+import sys
 from typing import Literal
+from pathlib import Path
 
 from langchain.messages import AnyMessage, HumanMessage, SystemMessage, ToolMessage
 from langchain.tools import tool
 from langgraph.graph import END, START, StateGraph
 from typing_extensions import Annotated, TypedDict
+
+# 直接运行当前脚本时，把上一级 GetStart 目录加入导入路径，方便复用共享 llm_client。
+GETSTART_DIR = Path(__file__).resolve().parent.parent
+if str(GETSTART_DIR) not in sys.path:
+    sys.path.insert(0, str(GETSTART_DIR))
 
 from llm_client import get_chat_model
 
