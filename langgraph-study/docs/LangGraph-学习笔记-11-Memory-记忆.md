@@ -83,5 +83,4 @@ print([item.value for item in memories])
 
 ## 配套图
 
-![memory summary](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/summary.png)
-
+![memory summary](assets/langgraph/summary.png)

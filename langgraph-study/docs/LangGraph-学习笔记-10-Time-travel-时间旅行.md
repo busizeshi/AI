@@ -73,13 +73,12 @@ print(graph.invoke(None, fork_config_2)["joke"])
 
 ## 官方图
 
-![time travel 1](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/checkpoints_full_story.jpg)
+![time travel 1](assets/langgraph/checkpoints_full_story.jpg)
 
-![time travel 2](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/re_play.png)
+![time travel 2](assets/langgraph/re_play.png)
 
 ## 这章和 checkpointers 的关系
 
 - checkpointers 提供时间线。
 - time travel 提供“沿着时间线倒回去并改写”的能力。
 - 所以它不是独立机制，而是 checkpoint 能力的上层应用。
-

@@ -63,4 +63,4 @@ print(resumed.output)
 
 ## 配套图
 
-![interrupts](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/static-interrupt.png)
+![interrupts](assets/langgraph/static-interrupt.png)

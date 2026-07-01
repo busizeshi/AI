@@ -92,11 +92,10 @@ print(fork_result)
 
 ## 配套图
 
-![checkpoints overview](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/checkpoints.jpg)
+![checkpoints overview](assets/langgraph/checkpoints.jpg)
 
-![checkpoints full story](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/checkpoints_full_story.jpg)
+![checkpoints full story](assets/langgraph/checkpoints_full_story.jpg)
 
-![get state](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/get_state.jpg)
+![get state](assets/langgraph/get_state.jpg)
 
-![replay](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/re_play.png)
-
+![replay](assets/langgraph/re_play.png)

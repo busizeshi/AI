@@ -69,4 +69,4 @@ print(graph.invoke({"foo": "world"}))
 
 ## 配套图
 
-![subgraph](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/subgraph.png)
+![subgraph](assets/langgraph/subgraph.png)

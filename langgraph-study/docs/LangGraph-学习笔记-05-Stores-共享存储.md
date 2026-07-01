@@ -74,5 +74,4 @@ for item in semantic_items:
 
 ## 配套图
 
-![shared state](D:/jwd-dev/study/AI/langgraph-study/docs/assets/langgraph/shared_state.png)
-
+![shared state](assets/langgraph/shared_state.png)
